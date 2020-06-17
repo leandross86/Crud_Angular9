@@ -57,19 +57,19 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ### Para iniciar a aplicação no backend
 ```bash 
-    # clonar repositório
+    #clonar repositório
     git clone https://github.com/leandross86/Crud_Angular9
-    # abrir o diretório backend
+    #abrir o diretório backend
     cd backend
-    # iniciar o backend da aplicação
+    #iniciar o backend da aplicação
     npm start
 ```
 ### Para iniciar a aplicação no frontend
 ```bash
-    # abrir outro terminal
-    # abrir o diretório frontend
+    #abrir outro terminal
+    #abrir o diretório frontend
     cd frontend
-    # iniciar o frontend da aplicação
+    #iniciar o frontend da aplicação
     npm start
 ```
 
