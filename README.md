@@ -2,12 +2,6 @@
     <img src="frontend/src/assets/img/crud_angular.png">
  </h1>
 
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
-
----
-
 # Indice
 - [Objetivo](#objetivo)
 - [Sobre](#sobre)
@@ -102,4 +96,4 @@ $ npm start
 
 - [Cod3rCursos](https://www.cod3r.com.br/courses/angular-9-essencial)
 
-## 🧱Em desenvolvimento
+## 🧱Status: Em desenvolvimento
