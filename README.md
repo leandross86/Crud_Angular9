@@ -9,11 +9,12 @@
 ---
 
 # Indice
-- [Objetivo](#Objetivo)
+- [Objetivo](#objetivo)
 - [Sobre](#sobre)
-- [Conteúdo aplicado](#Conteúdo-aplicado)
-- [Tecnologias utilizadas](#Tecnologias-utilizadas)
-- [Como baixar o projeto](#Como-baixar-o-projeto)
+- [Conteúdo aplicado](#conteúdo-aplicado)
+- [Tecnologias utilizadas](#tecnologias-utilizadas)
+- [Como baixar o projeto](#como-baixar-o-projeto)
+- [Créditos](#créditos)
 
 ## 🏆Objetivo
 
@@ -29,7 +30,7 @@
 
 ## 📝Sobre
 
-Mantido pela gigante da tecnologia Google, o *Angular 9* é um dos principais frameworks frontend do mercado! Aprender sobre Angular 9 é um grande diferencial na carreira qualquer dev, e neste curso eu estou aprendendo de forma extremamente prática e objetiva sem esquecer dos fundamentos e conceitos do Angular!
+Mantido pela gigante da tecnologia Google, o **Angular 9** é um dos principais frameworks frontend do mercado! Aprender sobre Angular 9 é um grande diferencial na carreira de qualquer dev, e neste curso eu estou aprendendo de forma extremamente prática e objetiva sem esquecer dos fundamentos e conceitos do Angular!
 
 ---
 
@@ -51,37 +52,54 @@ Mantido pela gigante da tecnologia Google, o *Angular 9* é um dos principais fr
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- [Typescript](https://www.typescriptlang.org/)
-- [HTML](https://www.w3schools.com/html/)
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [Angular9](https://angular.io/)
+ [<img src="https://img.icons8.com/color/30/000000/typescript.png"/>](https://www.typescriptlang.org/)
+ 
+ [<img src="https://img.icons8.com/color/30/000000/html-5.png"/>](https://www.w3schools.com/html/)
+ 
+ [<img src="https://img.icons8.com/color/30/000000/css3.png"/>](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+ 
+ [<img src="https://img.icons8.com/color/30/000000/angularjs.png"/>](https://angular.io/)
+ 
+ [<img src="https://img.icons8.com/color/48/000000/nodejs.png"/>](https://nodejs.org/en/)
 
 ---
 
 ## 📁Como baixar o projeto
 
-### Para iniciar a aplicação no backend
-```bash 
-    #clonar repositório
-    git clone https://github.com/leandross86/Crud_Angular9
-    #abrir o diretório backend
-    cd backend
-    #iniciar o backend da aplicação
-    npm start
-```
-### Para iniciar a aplicação no frontend
+Instalar o npm
 ```bash
-    #abrir outro terminal
-    #abrir o diretório frontend
-    cd frontend
-    #iniciar o frontend da aplicação
-    npm start
+$ npm install -y
+```
+### Para iniciar a aplicação no backend
+Clonar repositório
+```bash 
+$ git clone https://github.com/leandross86/Crud_Angular9
+```
+Abrir o diretório backend
+```bash
+$ cd backend
+```
+Iniciar o backend da aplicação
+```bash
+$ npm start
+```
+
+### Para iniciar a aplicação no frontend
+Abrir outro terminal
+
+Abrir o diretório frontend
+```bash
+$ cd frontend
+```
+Iniciar o frontend da aplicação
+```bash
+$ npm start
 ```
 
 ---
 
-## Créditos
+## 🤝Créditos
 
 - [Cod3rCursos](https://www.cod3r.com.br/courses/angular-9-essencial)
 
-### Em desenvolvimento
+## 🧱Em desenvolvimento
