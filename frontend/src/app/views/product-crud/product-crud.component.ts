@@ -1,3 +1,4 @@
+import { HeaderService } from './../../components/template/header/header.service';
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
@@ -8,7 +9,13 @@ import { Router } from '@angular/router';
 })
 export class ProductCrudComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private hearderService: HeaderService ) { 
+    hearderService.headerData = {
+      title: 'Cadastro de Produtos',
+      icon: 'storefront',
+      routerUrl: '/products'
+    }
+   }
 
   ngOnInit(): void {
   }
