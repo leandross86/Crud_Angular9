@@ -20,12 +20,31 @@ export class ProductService {
       verticalPosition: "top"
     })
   }
+
   //método para fazer a submissão da requisição para o backend para criar um produto
   create(product: Product): Observable<Product> {
-    return this.http.post<Product>(this.baseUrl, product)
+    return this.http.post<Product>(this.baseUrl, product);
   }
 
+  //método para leitura dos dados
   read(): Observable<Product []> {
-    return this.http.get<Product[]>(this.baseUrl)
+    return this.http.get<Product[]>(this.baseUrl);
+  }
+
+  //método para inicializar o form com produtos preenhido, para assim fazer o update
+  readById(id: number): Observable<Product> {
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.get<Product>(url);
+  }
+  //método para fazer o update dos dados
+  update(product: Product): Observable<Product>{
+    const url = `${this.baseUrl}/${product.id}`;
+    return this.http.put<Product>(url, product);
+  }
+
+  //método para excluir dados
+  delete(id: number): Observable<Product> {
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.delete<Product>(url);
   }
 }

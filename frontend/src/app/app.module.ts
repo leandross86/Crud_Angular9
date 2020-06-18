@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule, LOCALE_ID } from '@angular/core';
 import { HeaderComponent } from './components/template/header/header.component';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -26,7 +26,12 @@ import { ProductRead2Component } from './components/products/product-read2/produ
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import localePt from '@angular/common/locales/pt';
+import { registerLocaleData } from '@angular/common';
+import { ProductUpdateComponent } from './components/products/product-update/product-update.component';
+import { ProductDeleteComponent } from './components/products/product-delete/product-delete.component'
 
+registerLocaleData(localePt)
 
 @NgModule({
   declarations: [
@@ -40,7 +45,9 @@ import { MatSortModule } from '@angular/material/sort';
     ForDirective,
     ProductsCreateComponent,
     ProductReadComponent,
-    ProductRead2Component
+    ProductRead2Component,
+    ProductUpdateComponent,
+    ProductDeleteComponent
   ],
   imports: [
     BrowserModule,
@@ -60,7 +67,10 @@ import { MatSortModule } from '@angular/material/sort';
     MatPaginatorModule,
     MatSortModule
   ],
-  providers: [],
+  providers: [{
+    provide: LOCALE_ID,
+    useValue: 'pt-BR'
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
