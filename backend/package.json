@@ -12,4 +12,7 @@
   "dependencies": {
     "json-server": "^0.16.1"
   }
+},
+"devDependencies": {
+  "npm-registry-fetch": ">=4.0.5"
 }
